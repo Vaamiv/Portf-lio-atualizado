@@ -21,4 +21,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto desenvolvido para a divulgação do Portfólio pessoal.
 
-Link do projeto no ar:
+Link do projeto no ar: https://portfolio-atualizado-agencia-tm.vercel.app/
