@@ -6,7 +6,7 @@
     $mensagem = addslashes($_POST['mensagem']);
     
 
-    $para ="thomasmoojen94@hotmail.com";
+    $para ="thomasmoojen94@gmail.com";
     $assunto = "Coleta de dados - Agência TM";
 
     $corpo ="Nome: ".$nome."\n"."E-mail: ".$email."\n"."Telefone: ".$telefone."\n"."Mensagem: ".$mensagem;
