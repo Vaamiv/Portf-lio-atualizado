@@ -7,7 +7,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-- CSS Flex box[
+- CSS Flex box
 - Javascript
 
 ## Feito por:
