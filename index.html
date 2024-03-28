@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Agência TM</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function scrollToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="imagem-logo" src="images/logo-TM.png" alt="logo da agencia TM">
+                </a>
+            </div><!--logo-->
+        
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="javascript:void(0)" onclick="scrollToSection('topo-do-site')">Início</a></li>
+                    <li><a href="javascript:void(0)" onclick="scrollToSection('especialidades')">Especialidades</a></li>
+                    <li><a href="javascript:void(0)" onclick="scrollToSection('sobre')">Sobre</a></li>
+                    <li><a href="javascript:void(0)" onclick="scrollToSection('portfolio')">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="javascript:void(0)" onclick="scrollToSection('formulario')">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div id="btn-menu" class="btn-abrir-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--btn-fechar-->
+
+                <nav>
+                    <ul>
+                        <li><a href="javascript:void(0)" onclick="scrollToSection('topo-do-site')">Início</a></li>
+                        <li><a href="javascript:void(0)" onclick="scrollToSection('especialidades')">Especialidades</a></li>
+                        <li><a href="javascript:void(0)" onclick="scrollToSection('sobre')">Sobre</a></li>
+                        <li><a href="javascript:void(0)" onclick="scrollToSection('portfolio')">Projetos</a></li>
+                        <li><a href="javascript:void(0)" onclick="scrollToSection('formulario')">Contato</a></li>
+                    </ul>
+                </nav>
+            
+            </div><!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section id="topo-do-site" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>
+                            TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span>
+                        </h1>
+                        <p>
+                            Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante,
+                            funcionalidade intuitiva e otimização para resultados, estou pronto para criar a presença
+                            online dos seus sonhos.
+                        </p>
+
+                        <div class="btn-contato">
+                            <a href="javascript:void(0)" onclick="scrollToSection('formulario')">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div> <!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img class="imagem-perfil" src="images/imagem-perfil.jfif" alt="">
+                    </div><!--img-topo-site-->
+                </div> <!--flex-->
+            </div> <!--interface-->
+        </section> <!--topo-do-site-->
+
+        <section id="especialidades" class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Leve sua presença online para o próximo nível com um site profissional!<br>
+
+                            Quer causar uma excelente primeira impressão online? Na Agência TM, nós transformamos sua visão em um site incrível e impactante!
+                            
+                            Seja você um empreendedor iniciante, uma pequena empresa em crescimento ou uma marca consolidada, estamos aqui para ajudá-lo a se destacar na web.
+                            
+                            Com designs personalizados e funcionais, garantimos que seu site não apenas impressione visualmente, mas também ofereça uma experiência de usuário intuitiva e envolvente. De layouts responsivos à recursos avançados, nós cuidamos de tudo para que seu site seja encontrado e apreciado por seu público-alvo.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-google-play"></i>
+                        <h3>Aplicativos</h3>
+                        <p>Transforme sua ideia em um aplicativo de sucesso!<br>
+
+                            Você tem uma ideia brilhante para um aplicativo, mas não sabe por onde começar? Na Agência TM, nós transformamos ideias em realidade digital!
+                            
+                            Com uma equipe de especialistas em desenvolvimento de aplicativos, estamos prontos para criar o aplicativo dos seus sonhos. Seja qual for o seu conceito - desde aplicativos para dispositivos móveis até plataformas de última geração - nós temos a experiência e a habilidade necessárias para torná-lo realidade.</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-gear"></i>
+                        <h3>Automações</h3>
+                        <p>Automatize tarefas e simplifique processos com nossas soluções em Python!<br>
+
+                            Quer otimizar sua produtividade e reduzir erros repetitivos? Na Agência TM, oferecemos soluções de automação em Python que podem transformar a maneira como você trabalha!
+                            
+                            Nossa equipe de desenvolvedores Python é especializada em criar scripts e ferramentas personalizadas para automatizar tarefas manuais e simplificar processos complexos. Seja para processamento de dados, integração de sistemas ou qualquer outra necessidade específica, estamos prontos para desenvolver soluções eficientes e confiáveis para o seu negócio.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidades-->
+
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img class="imagem-perfil-sobre" src="images/imagem-perfil.jfif" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>Muito prazer, <span>Sou Thomás Moojen</span></h2>
+                        <p>Desenvolvedor Front-end com especialidade em Javascript, HTML, CSS e Python. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+                        <p>Profissional competente e comprometido com o bom andamento das rotinas laborais. Minhas experiências profissionais me possibilitaram desenvolver um bom relacionamento interpessoal, proatividade, responsabilidade e dedicação. Busco uma oportunidade de executar os conhecimentos e potencial adquiridos durante a graduação. Sou um profissional dedicado e organizado, que pretende colaborar também para o crescimento da empresa além de desenvolver e aprofundar minha prática profissional.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/thomasmoojen/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/thom%C3%A1s-augusto-zanin-moojen-a409b5119/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/Vaamiv" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        </div>
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section id="portfolio" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/projeto-decodificador-texto.png);">
+                        <div class="overlay">Projeto decodificador texto</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto-numero-secreto.png);">
+                        <div class="overlay">Projeto número secreto</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto-pagina-login.png);">
+                        <div class="overlay">Projeto página login</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto-spotify.png);">
+                        <div class="overlay">Projeto réplica Spotify</div>
+                    </div>
+                </div>
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section id="formulario" class="formulario">
+            <div class="interface">
+                <h2 class="titulo">Fala <span>comigo.</span></h2>
+
+                <form method="post" action="envia.php">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="text" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input type="text" name="celular" id="telefone" placeholder="Seu telefone:">
+                    <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img class="imagem-logo" src="images/logo-TM.png" alt="Logotipo Agência TM">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/thomasmoojen/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/thom%C3%A1s-augusto-zanin-moojen-a409b5119/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/Vaamiv" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:thomasmoojen94@hotmail.com">thomasmoojen94@hotmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+    <button id="btn-voltar-topo" onclick="scrollToTop()" title="Voltar ao Topo"><i class="bi bi-arrow-up"></i></button>
+</body>
+</html>
