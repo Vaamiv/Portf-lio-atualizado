@@ -321,6 +321,8 @@ section.portfolio .flex {
   color: #fff;
   opacity: 0;
   transition: 0.5s;
+  text-align: center;
+  padding: 0 15px;
 }
 
 .overlay:hover {
