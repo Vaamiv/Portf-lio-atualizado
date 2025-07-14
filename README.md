@@ -9,6 +9,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - CSS Flex box
 - Javascript
+- Bootstrap
 
 ## Feito por:
 
