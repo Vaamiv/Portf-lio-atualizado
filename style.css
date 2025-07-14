@@ -280,6 +280,14 @@ section.sobre .flex {
 }
 
 /* ESTILO DO PORTFÓLIO */
+
+#portfolio .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px; /* ajuste o valor conforme desejar */
+  justify-content: center;
+}
+
 section.portfolio {
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px #ffffff1d;
